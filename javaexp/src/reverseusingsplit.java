@@ -10,7 +10,7 @@ public class reverseusingsplit {
         String[] answer=str.split("");
         for(int i= answer.length-1;i>=0;i--)
         {
-            System.out.println("Reverse string " + answer[i]);
+            System.out.print( answer[i]);
         }
 
     }
